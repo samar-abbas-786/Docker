@@ -1,0 +1,5 @@
+dummy.txt
+node_modules
+*.txt // All Files with .txt extention  will be ignored 
+
+# docker build -t docker-app . it will  build new images
