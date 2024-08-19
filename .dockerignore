@@ -3,3 +3,8 @@ node_modules
 *.txt // All Files with .txt extention  will be ignored 
 
 # docker build -t docker-app . it will  build new images
+#docker image rm <Image-Name> this will delete the docker image 
+#docker image rm <Image-Name> -f this will delete the docker image which is in use 
+#docker container rm <Container Name> this will delete the container
+#docker system prune -a  this will Delete All The Container 
+#docker run --name basic-app-container-v2 -p 8080:8080 basic-app:v2

@@ -5,7 +5,7 @@ app.get("/", (req, res) => {
   res.json([
     {
       id: 1,
-      Name: "Samar",
+      Name: "Samar Abbas Naqvi",
     },
     {
       id: 2,
@@ -13,7 +13,23 @@ app.get("/", (req, res) => {
     },
     {
       id: 3,
-      Name: "Naqvi",
+      Name: "Naqviggg",
+    },
+    {
+      id: 4,
+      Name: "Syed",
+    },
+    {
+      id: 5,
+      Name: "Hussain",
+    },
+    {
+      id: 6,
+      Name: "XYZ",
+    },
+    {
+      id: 7,
+      Name: "XYZQ",
     },
   ]);
 });
